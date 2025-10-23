@@ -1,11 +1,10 @@
 //import express module
 const express=require('express');
+const recipesRouter = require('./routes/recipesRoutes');
 
 // create an express application
 const app=express();
 
-app.get('/recipesapp', (req, res) =>{
-     res.json({ message: 'Recipes API is running' });
-});
+app.use('/',recipesRouter);
 
 module.exports=app;
