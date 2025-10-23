@@ -1,8 +1,7 @@
 const express=require('express');
+const { getAllRecipes } = require('../controllers/recipesControllers');
 const recipesRouter=express.Router();
 
-recipesRouter.get('/recipesapp', (req, res) =>{
-     res.json({ message: 'Recipes API is running' });
-});
+recipesRouter.get('/recipesapp',getAllRecipes);
 
 module.exports=recipesRouter;
