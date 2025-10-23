@@ -1,0 +1,25 @@
+{
+  "name": "recipes-app",
+  "version": "1.0.0",
+  "description": "The recipes application is a simple app where users can plan their palns and track basic nutritions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosario1424/recipes-app.git"
+  },
+  "keywords": [
+    "nutritions",
+    "meals",
+    "planner",
+    "diet"
+  ],
+  "author": "rosario",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosario1424/recipes-app/issues"
+  },
+  "homepage": "https://github.com/rosario1424/recipes-app#readme"
+}
