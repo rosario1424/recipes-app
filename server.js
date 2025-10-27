@@ -10,7 +10,7 @@ mongoose
     .then(() => {
         console.log('connected to MongoDB');
  // Listen for incoming request (start the server)
-app.listen(3001, () => {
+app.listen(3001, 'localhost', () => {
     console.log(`server is running on http://localhost:3001`);
 });
 })
