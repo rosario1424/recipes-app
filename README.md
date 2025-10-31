@@ -1,3 +1,6 @@
+## URL for published documentation 
+https://documenter.getpostman.com/view/49278169/2sB3WmThmk
+
 ## Recipes App
 
 A simple CRUD (Create, Read, Update, Delete) application for managing recipes built using Node.js, Express.js, and MongoDB (Mongoose). The app follows the MVC pattern, includes validation, error handling, and is fully documented for use with Postman.
